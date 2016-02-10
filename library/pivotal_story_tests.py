@@ -22,11 +22,12 @@ class PivotalStoryTestCase(unittest.TestCase):
 	def test_something(self):
 		pass
 
-	
+"""
+
 	@patch('ansible.module_utils.basic.module.fail_json')
 	def test_validate_inputs_with_valid_inputs(self, mock_fail_json):
 		test_inputs = ['name', id]
 		validate_inputs(test_inputs)
 
 		assert mock_fail_json.called is False, 'Expect fail_json not to have been called'
-	
+"""

@@ -1,0 +1,8 @@
+nose
+mock
+requests
+responses
+ansible
+sniffer
+pinocchio
+
